@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quality Tool Repair - Calera, AL</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', system-ui, sans-serif; background: #0f172a; color: #e2e8f0; }
+        header { background: linear-gradient(135deg, #1e3a5f 0%, #0f172a 100%); padding: 48px 32px; text-align: center; border-bottom: 3px solid #f59e0b; }
+        h1 { font-size: 2.8rem; font-weight: 800; color: #f8fafc; letter-spacing: -1px; }
+        .tagline { font-size: 1.15rem; color: #94a3b8; margin-top: 12px; }
+        .btn-group { margin-top: 24px; }
+        .btn-primary { display: inline-block; background: #f59e0b; color: #0f172a; padding: 14px 32px; border-radius: 8px; font-weight: 700; font-size: 1.1rem; text-decoration: none; margin-right: 12px; }
+        .btn-secondary { display: inline-block; background: #1e3a5f; color: #e2e8f0; padding: 14px 32px; border-radius: 8px; font-weight: 600; font-size: 1.1rem; }
+        section { padding: 48px 32px; text-align: center; }
+        .hero h2 { font-size: 2rem; color: #f8fafc; margin-bottom: 16px; }
+        .hero p { font-size: 1.1rem; color: #94a3b8; max-width: 600px; margin: 0 auto 32px; line-height: 1.6; }
+        .stats { display: flex; justify-content: center; gap: 24px; flex-wrap: wrap; }
+        .stat-box { background: #1e293b; padding: 24px 32px; border-radius: 12px; min-width: 180px; }
+        .stat-box .num { font-size: 2rem; font-weight: 800; color: #f59e0b; }
+        .stat-box .label { color: #94a3b8; font-size: 0.95rem; }
+        .services { background: #1e293b; }
+        .services h2 { font-size: 1.8rem; color: #f8fafc; margin-bottom: 32px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; max-width: 800px; margin: 0 auto; }
+        .card { background: #0f172a; padding: 24px; border-radius: 10px; border-left: 4px solid #f59e0b; text-align: left; }
+        .card h3 { color: #f59e0b; margin-bottom: 8px; font-size: 1.1rem; }
+        .card p { color: #94a3b8; font-size: 0.9rem; }
+        .warranty { background: #0f172a; }
+        .warranty-box { background: #1e3a5f; padding: 32px; border-radius: 12px; max-width: 700px; margin: 0 auto; border: 1px solid #f59e0b; }
+        .warranty-box h3 { color: #f59e0b; margin-bottom: 12px; font-size: 1.3rem; }
+        .warranty-box p { color: #e2e8f0; font-size: 1rem; line-height: 1.6; }
+        .info { background: #1e293b; }
+        .info-grid { max-width: 700px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 32px; text-align: left; }
+        .info h3 { color: #f59e0b; margin-bottom: 16px; font-size: 1.2rem; }
+        .info p, .info div { color: #e2e8f0; line-height: 2; }
+        .info span { color: #94a3b8; }
+        footer { background: #0f172a; padding: 24px 32px; text-align: center; border-top: 1px solid #1e293b; }
+        footer p { color: #64748b; font-size: 0.9rem; }
+        a { color: #f59e0b; text-decoration: none; font-weight: 600; }
+        @media (max-width: 600px) {
+            h1 { font-size: 2rem; }
+            .info-grid { grid-template-columns: 1fr; }
+            .btn-group a { display: block; margin: 8px auto; max-width: 280px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>QUALITY TOOL REPAIR</h1>
+        <p class="tagline">Small Engine & Power Equipment Repair — Calera, AL</p>
+        <div class="btn-group">
+            <a href="tel:2056683131" class="btn-primary">📞 (205) 668-3131</a>
+            <span class="btn-secondary">📍 6180 US-31, Calera</span>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h2>Your Tools. Our Expertise.</h2>
+        <p>Warranty repairs, tune-ups, and full rebuilds for lawn mowers, pressure washers, chainsaws, and all small engines. Family-owned and serving Shelby County since 2010.</p>
+        <div class="stats">
+            <div class="stat-box"><div class="num">15+</div><div class="label">Years Experience</div></div>
+            <div class="stat-box"><div class="num">Same Day</div><div class="label">Diagnosis</div></div>
+            <div class="stat-box"><div class="num">Warranty</div><div class="label">Authorized Repairs</div></div>
+        </div>
+    </section>
+
+    <section class="services">
+        <h2>What We Repair</h2>
+        <div class="grid">
+            <div class="card"><h3>🌿 Lawn Mowers</h3><p>Push, riding, zero-turn. All brands.</p></div>
+            <div class="card"><h3>💧 Pressure Washers</h3><p>Electric & gas. Pump rebuilds.</p></div>
+            <div class="card"><h3>⛓️ Chainsaws</h3><p>Sharpening, carburetor, chain.</p></div>
+            <div class="card"><h3>🔧 All Small Engines</h3><p>Generators, tillers, blowers.</p></div>
+        </div>
+    </section>
+
+    <section class="warranty">
+        <div class="warranty-box">
+            <h3>✅ Authorized Warranty Repair Center</h3>
+            <p>Ryobi, Craftsman, Troy-Bilt, Poulan Pro & more. Drop off your equipment — we handle the paperwork and get you back to work.</p>
+        </div>
+    </section>
+
+    <section class="info">
+        <div class="info-grid">
+            <div>
+                <h3>🕐 Hours</h3>
+                <div>Mon – Fri: <span>7:00 AM – 5:00 PM</span></div>
+                <div>Sat: <span>8:00 AM – 2:00 PM</span></div>
+                <div>Sun: <span>Closed</span></div>
+            </div>
+            <div>
+                <h3>📍 Location</h3>
+                <p>6180 US-31<br>Calera, AL 35040<br><br><a href="tel:2056683131">(205) 668-3131</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© Quality Tool Repair — Calera, Alabama. All rights reserved.</p>
+    </footer>
+</body>
+</html>
